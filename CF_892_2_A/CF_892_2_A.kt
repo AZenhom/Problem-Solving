@@ -1,3 +1,5 @@
+package com.ahmedzenhom.problem_solving.cf_892_2_a
+
 var input = mutableListOf<String>( // Not to be included in your submitting
     "5",
     "3",
@@ -11,11 +13,14 @@ var input = mutableListOf<String>( // Not to be included in your submitting
     "5",
     "4 8 12 12 4"
 )
+
 fun readLine(): String? { // Not to be included in your submitting
     val line = input.firstOrNull()
     input.removeAt(0)
     return line
 }
+
+// You answer goes here 
 
 fun main() {
     val t = readLine()?.toInt()!!
